@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Lucky-Fashion",
+    "slug": "lucky-fashion",
+    "version": "1.0.0",
+    "packageType": "apk",
+    "orientation": "portrait",
+    "icon": "./assets/Logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/Logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "y"
+    },
+    "android": {
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Logo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.lalit_namdev.ecomv2"
+    },
+    "web": {
+      "favicon": "./assets/Logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b9a9d9e4-d831-4c7e-9c54-f395c39e2a10"
+      }
+    },
+    "owner": "lalit_namdev"
+  }
+}
